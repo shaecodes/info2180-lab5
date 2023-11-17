@@ -38,7 +38,8 @@ label {
     font-size: 1em;
 }
 
-#lookup {
+#lookup, 
+#lookup_cities{
     padding: 7px;
     font-size: 1em;
     cursor: pointer;

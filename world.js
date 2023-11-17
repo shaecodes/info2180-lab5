@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var country = countryInput.value;
         var xhr = new XMLHttpRequest();
 
-        xhr.open("GET", "world.php?country=" + encodeURIComponent(country), true);
+        xhr.open("GET", "world.php?country=" + encodeURIComponent(country) + "&lookup=cities", true);
 
         xhr.onreadystatechange = function() {
             if (xhr.readyState == 4 && xhr.status == 200) {

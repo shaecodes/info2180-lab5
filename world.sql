@@ -36,6 +36,7 @@ CREATE TABLE `cities` (
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=4080 DEFAULT CHARSET=utf8mb4;
 
+
 --
 -- Dumping data for table `cities`
 --
